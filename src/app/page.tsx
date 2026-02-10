@@ -16,6 +16,7 @@ export default function Home() {
       <DocumentarySection />
       <CinemaSection />
       <DeepDiveTabs />
+      <QuizSection />
       <DiscussionSection />
 
       <footer className="py-12 text-center text-muted-foreground text-sm bg-background border-t border-border mt-12 bg-[#EBE9E4]">
