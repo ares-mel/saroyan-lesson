@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 
 const TIMESTAMPS = [
-    { label: "Enter Jasper MacGregor", time: 630 }, // 10:30
-    { label: "The Song of the Highlands", time: 840 }, // 14:00
-    { label: "The Neighbors Bring Food", time: 1320 }, // 22:00
+    { label: "Defining the Highlands", time: 383, displayTime: "06:23" },
+    { label: "Father’s Duty", time: 830, displayTime: "13:50" },
+    { label: "The Reality Check", time: 957, displayTime: "15:57" },
+    { label: "The Exchange", time: 1879, displayTime: "31:19" },
+    { label: "Unspoken Bond & Final Theme", time: 2318, displayTime: "38:38" },
 ];
 
 export function CinemaSection() {
@@ -73,7 +75,7 @@ export function CinemaSection() {
                         className="bg-stone-900 border-stone-700 text-stone-300 hover:bg-sepia hover:text-white hover:border-sepia transition-all duration-300 font-sans"
                     >
                         <Play className="w-4 h-4 mr-2" />
-                        [{Math.floor(ts.time / 60)}:{(ts.time % 60).toString().padStart(2, '0')}] {ts.label}
+                        [{ts.displayTime}] {ts.label}
                     </Button>
                 ))}
             </motion.div>

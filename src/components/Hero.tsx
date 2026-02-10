@@ -49,14 +49,12 @@ export function Hero() {
                     transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
                     className="flex-1 relative"
                 >
-                    <div className="relative w-full aspect-square max-w-md mx-auto">
-                        {/* Abstract Trumpet Representation */}
-                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-2xl opacity-90">
-                            <path fill="#8C7B75" d="M42.7,-72.8C54.8,-67.2,63.6,-53.4,69.8,-40.1C75.9,-26.8,79.4,-14,78.2,-1.8C77.1,10.5,71.3,22.1,64.3,33.3C57.3,44.5,49.1,55.3,38.7,62.8C28.3,70.3,15.7,74.5,1.7,71.6C-12.3,68.7,-27.7,58.7,-40.4,49.2C-53.1,39.7,-63.1,30.7,-67.6,19.3C-72.1,8,-71.1,-5.7,-66.1,-18.2C-61.1,-30.7,-52.1,-42,-41.4,-48.2C-30.7,-54.4,-18.3,-55.5,-5.2,-46.5C7.9,-37.5,15.8,-18.4,23.1,-9.5" transform="translate(100 100) scale(1.1)" />
-                        </svg>
-                        <div className="absolute inset-0 flex items-center justify-center">
-                            <MusicIcon />
-                        </div>
+                    <div className="relative w-full aspect-square max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white/50 bg-stone-200 rotate-3 hover:rotate-0 transition-transform duration-500">
+                        <img
+                            src="/saroyan-portrait.jpg"
+                            alt="William Saroyan Portrait"
+                            className="w-full h-full object-cover sepia-[0.3] hover:sepia-0 transition-all duration-500"
+                        />
                     </div>
                 </motion.div>
             </div>
