@@ -51,7 +51,7 @@ export function Hero() {
                 >
                     <div className="relative w-full aspect-square max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white/50 bg-stone-200 rotate-3 hover:rotate-0 transition-transform duration-500">
                         <img
-                            src="/saroyan-portrait.jpg"
+                            src="./saroyan-portrait.jpg"
                             alt="William Saroyan Portrait"
                             className="w-full h-full object-cover sepia-[0.3] hover:sepia-0 transition-all duration-500"
                         />
