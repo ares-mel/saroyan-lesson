@@ -29,8 +29,34 @@ export function DeepDiveTabs() {
                         <TabContent value="symbolism" title="The Soul's Cry">
                             <p>The <strong>Trumpet</strong> isn&#39;t just an instrument—it is the voice of longing. In a neighborhood defined by silence and poverty, the music disrupts the status quo.</p>
                             <p className="mt-4">When Jasper MacGregor plays, he doesn&#39;t just make sound; he summons the "Highlands"—a metaphorical place of peace, dignity, and beauty that everyone, regardless of their background, yearns for.</p>
-                            <div className="mt-6 p-4 bg-sepia/10 border-l-4 border-sepia italic text-foreground">
+                            <div className="mt-6 p-4 bg-sepia/10 border-l-4 border-sepia italic text-foreground border-stone-400 bg-stone-100">
                                 "My heart's in the Highlands, my heart is not here..."
+                            </div>
+
+                            <div className="mt-12 border-t border-stone-200 pt-8">
+                                <h3 className="font-serif text-2xl text-stone-800 mb-4">The Melody of the Highlands</h3>
+                                <p className="mb-6">
+                                    To truly understand the "voice of longing" Saroyan describes, listen to this masterpiece by Armenian composer <strong>Arno Babajanyan</strong>, written specifically for the film version of this play.
+                                </p>
+
+                                <div className="aspect-video w-full rounded-xl overflow-hidden shadow-lg mb-6">
+                                    <iframe
+                                        width="100%"
+                                        height="100%"
+                                        src="https://www.youtube.com/embed/9QTGMeNr4Tg"
+                                        title="Arno Babajanyan - Im sirte lernerum e"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+
+                                <div className="bg-stone-100 p-6 rounded-lg border border-stone-200">
+                                    <span className="text-xs font-bold tracking-widest text-stone-500 uppercase mb-2 block">Discussion Challenge</span>
+                                    <p className="font-medium text-stone-800">
+                                        Does this trumpet melody feel more like Fresno, California, or the Armenian Highlands? Why?
+                                    </p>
+                                </div>
                             </div>
                         </TabContent>
 

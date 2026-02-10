@@ -16,10 +16,7 @@ export default function Home() {
       <DocumentarySection />
       <CinemaSection />
       <DeepDiveTabs />
-      <QuizSection />
       <DiscussionSection />
-      <VocabularyDeck />
-      <WritingTask />
 
       <footer className="py-12 text-center text-muted-foreground text-sm bg-background border-t border-border mt-12 bg-[#EBE9E4]">
         <p className="font-serif italic mb-2">&quot;The Highlands are not a place on a map, but a place in the heart.&quot;</p>
