@@ -1,14 +1,21 @@
-import React from 'react';
-import QuizSection from './QuizSection';
-import VocabularyDeck from './VocabularyDeck';
-import WritingTask from './WritingTask';
+import Hero from './components/Hero';
+import ContextSection from './components/ContextSection';
+import CinemaSection from './components/CinemaSection';
+import QuizSection from './components/QuizSection';
+import VocabularyDeck from './components/VocabularyDeck';
+import WritingTask from './components/WritingTask';
 
-const Page = () => (
-    <div>
-        <QuizSection />
-        <VocabularyDeck />
-        <WritingTask />
-    </div>
-);
+function Page() {
+    return (
+        <div>
+            <Hero />
+            <ContextSection />
+            <CinemaSection />
+            <QuizSection />
+            <VocabularyDeck />
+            <WritingTask />
+        </div>
+    );
+}
 
 export default Page;
