@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from './components/Hero';
 import ContextSection from './components/ContextSection';
 import CinemaSection from './components/CinemaSection';
@@ -6,7 +5,7 @@ import QuizSection from './components/QuizSection';
 import VocabularyDeck from './components/VocabularyDeck';
 import WritingTask from './components/WritingTask';
 
-const App = () => {
+const Page = () => {
   return (
     <div>
       <Hero />
@@ -19,4 +18,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Page;
